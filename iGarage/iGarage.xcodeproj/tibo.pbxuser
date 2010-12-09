@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	110ECE0912B0624000E98EAA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 112989C612AD0AA700BD7EB9 /* CarsList.h */;
+		name = "CarsList.h: 16";
+		rLen = 0;
+		rLoc = 284;
+		rType = 0;
+		vrLen = 323;
+		vrLoc = 0;
+	};
+	110ECE3712B0634800E98EAA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 110ECE3812B0634800E98EAA /* UITableViewCell.h */;
+		name = "UITableViewCell.h: 57";
+		rLen = 76;
+		rLoc = 2287;
+		rType = 0;
+		vrLen = 961;
+		vrLoc = 1633;
+	};
+	110ECE3812B0634800E98EAA /* UITableViewCell.h */ = {
+		isa = PBXFileReference;
+		name = UITableViewCell.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h;
+		sourceTree = "<absolute>";
+	};
+	110ECE3912B0634800E98EAA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 112989C712AD0AA700BD7EB9 /* CarsList.m */;
+		name = "CarsList.m: 18";
+		rLen = 0;
+		rLoc = 291;
+		rType = 0;
+		vrLen = 250;
+		vrLoc = 141;
+	};
+	110ECE5412B0640800E98EAA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1161826112AD020A009B62A9 /* InventoryViewController.h */;
+		name = "InventoryViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 253;
+		vrLoc = 0;
+	};
+	110ECE5B12B0646F00E98EAA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1161826212AD020A009B62A9 /* InventoryViewController.m */;
+		name = "InventoryViewController.m: 87";
+		rLen = 0;
+		rLoc = 2276;
+		rType = 0;
+		vrLen = 892;
+		vrLoc = 1724;
+	};
+	110ECE6212B0BFCC00E98EAA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* iGarageAppDelegate.m */;
+		name = "iGarageAppDelegate.m: 30";
+		rLen = 0;
+		rLoc = 1191;
+		rType = 0;
+		vrLen = 1368;
+		vrLoc = 255;
+	};
+	110ECE7112B0E51A00E98EAA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1161829412AD0398009B62A9 /* Car.m */;
+		name = "Car.m: 40";
+		rLen = 0;
+		rLoc = 940;
+		rType = 0;
+		vrLen = 647;
+		vrLoc = 400;
+	};
+	110ECE7212B0E51A00E98EAA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1161829312AD0398009B62A9 /* Car.h */;
+		name = "Car.h: 35";
+		rLen = 0;
+		rLoc = 875;
+		rType = 0;
+		vrLen = 868;
+		vrLoc = 343;
+	};
+	110ECE7B12B1163000E98EAA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1161829312AD0398009B62A9 /* Car.h */;
+		name = "Car.h: 36";
+		rLen = 0;
+		rLoc = 990;
+		rType = 0;
+		vrLen = 700;
+		vrLoc = 662;
+	};
+	112989C612AD0AA700BD7EB9 /* CarsList.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 286}}";
+			sepNavSelRange = "{284, 0}";
+			sepNavVisRange = "{0, 323}";
+		};
+	};
+	112989C712AD0AA700BD7EB9 /* CarsList.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 533}}";
+			sepNavSelRange = "{291, 0}";
+			sepNavVisRange = "{141, 250}";
+		};
+	};
+	112989E312AD0DC800BD7EB9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* iGarageAppDelegate.h */;
+		name = "iGarageAppDelegate.h: 11";
+		rLen = 0;
+		rLoc = 205;
+		rType = 0;
+		vrLen = 528;
+		vrLoc = 0;
+	};
+	1161824E12ACFEA3009B62A9 /* iGarage */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = iGarage;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	1161825912ACFEC3009B62A9 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	1161825A12ACFEC3009B62A9 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1161826112AD020A009B62A9 /* InventoryViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 278}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 253}";
+		};
+	};
+	1161826212AD020A009B62A9 /* InventoryViewController.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{3964, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{4015, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{4065, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 4766}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 2197}}";
+			sepNavSelRange = "{2276, 0}";
+			sepNavVisRange = "{1866, 525}";
+			sepNavWindowFrame = "{{15, 45}, {1024, 733}}";
+		};
+	};
+	1161827012AD0297009B62A9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* iGarage_Prefix.pch */;
+		name = "iGarage_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 183;
+		vrLoc = 0;
+	};
+	1161827112AD0297009B62A9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 268;
+		vrLoc = 0;
+	};
+	1161829312AD0398009B62A9 /* Car.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 637}}";
+			sepNavSelRange = "{990, 0}";
+			sepNavVisRange = "{662, 700}";
+		};
+	};
+	1161829412AD0398009B62A9 /* Car.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 650}}";
+			sepNavSelRange = "{940, 0}";
+			sepNavVisRange = "{400, 647}";
+			sepNavWindowFrame = "{{15, 45}, {1024, 733}}";
+		};
+	};
+	1D3623240D0F684500981E51 /* iGarageAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 325}}";
+			sepNavSelRange = "{205, 0}";
+			sepNavVisRange = "{0, 528}";
+		};
+	};
+	1D3623250D0F684500981E51 /* iGarageAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 1196}}";
+			sepNavSelRange = "{1191, 0}";
+			sepNavVisRange = "{304, 1106}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* iGarage */ = {
+		activeExec = 0;
+		executables = (
+			1161824E12ACFEA3009B62A9 /* iGarage */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 1161824E12ACFEA3009B62A9 /* iGarage */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* iGarage */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* iGarage */,
+		);
+		codeSenseManager = 1161825A12ACFEC3009B62A9 /* Code sense */;
+		executables = (
+			1161824E12ACFEA3009B62A9 /* iGarage */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = 1;
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					834,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 313548933;
+			PBXWorkspaceStateSaveDate = 313548933;
+		};
+		perUserProjectItems = {
+			110ECE0912B0624000E98EAA /* PBXTextBookmark */ = 110ECE0912B0624000E98EAA /* PBXTextBookmark */;
+			110ECE3712B0634800E98EAA /* PBXTextBookmark */ = 110ECE3712B0634800E98EAA /* PBXTextBookmark */;
+			110ECE3912B0634800E98EAA /* PBXTextBookmark */ = 110ECE3912B0634800E98EAA /* PBXTextBookmark */;
+			110ECE5412B0640800E98EAA /* PBXTextBookmark */ = 110ECE5412B0640800E98EAA /* PBXTextBookmark */;
+			110ECE5B12B0646F00E98EAA /* PBXTextBookmark */ = 110ECE5B12B0646F00E98EAA /* PBXTextBookmark */;
+			110ECE6212B0BFCC00E98EAA /* PBXTextBookmark */ = 110ECE6212B0BFCC00E98EAA /* PBXTextBookmark */;
+			110ECE7112B0E51A00E98EAA /* PBXTextBookmark */ = 110ECE7112B0E51A00E98EAA /* PBXTextBookmark */;
+			110ECE7212B0E51A00E98EAA /* PBXTextBookmark */ = 110ECE7212B0E51A00E98EAA /* PBXTextBookmark */;
+			110ECE7B12B1163000E98EAA /* PBXTextBookmark */ = 110ECE7B12B1163000E98EAA /* PBXTextBookmark */;
+			112989E312AD0DC800BD7EB9 /* PBXTextBookmark */ = 112989E312AD0DC800BD7EB9 /* PBXTextBookmark */;
+			1161827012AD0297009B62A9 /* PBXTextBookmark */ = 1161827012AD0297009B62A9 /* PBXTextBookmark */;
+			1161827112AD0297009B62A9 /* PBXTextBookmark */ = 1161827112AD0297009B62A9 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 1161825912ACFEC3009B62A9 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 234}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 268}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* iGarage_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 158}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 183}";
+		};
+	};
+}
