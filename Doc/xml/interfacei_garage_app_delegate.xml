@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.2">
+  <compounddef id="interfacei_garage_app_delegate" kind="class" prot="public">
+    <compoundname>iGarageAppDelegate</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="interfacei_garage_app_delegate_1a1c3045b04ff8e38983a95e8d695cc53e" prot="protected" static="no" mutable="no">
+        <type>UIWindow *</type>
+        <definition>UIWindow* iGarageAppDelegate::window</definition>
+        <argsstring></argsstring>
+        <name>window</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tibo/Desktop/Cocoaheads Documentation/iGarage/Classes/iGarageAppDelegate.h" line="16" bodyfile="/Users/tibo/Desktop/Cocoaheads Documentation/iGarage/Classes/iGarageAppDelegate.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interfacei_garage_app_delegate_1a8f9b5f898ca7834b8c518c544d056aa7" prot="protected" static="no" mutable="no">
+        <type><ref refid="interface_inventory_view_controller" kindref="compound">InventoryViewController</ref> *</type>
+        <definition>InventoryViewController* iGarageAppDelegate::viewController</definition>
+        <argsstring></argsstring>
+        <name>viewController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tibo/Desktop/Cocoaheads Documentation/iGarage/Classes/iGarageAppDelegate.h" line="17" bodyfile="/Users/tibo/Desktop/Cocoaheads Documentation/iGarage/Classes/iGarageAppDelegate.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interfacei_garage_app_delegate_1a8275de0de96fde0c992b74742c05e498" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="retain">
+        <type>IBOutlet UIWindow *</type>
+        <definition>IBOutlet UIWindow* iGarageAppDelegate::window</definition>
+        <argsstring></argsstring>
+        <name>window</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tibo/Desktop/Cocoaheads Documentation/iGarage/Classes/iGarageAppDelegate.h" line="20" bodyfile="/Users/tibo/Desktop/Cocoaheads Documentation/iGarage/Classes/iGarageAppDelegate.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interfacei_garage_app_delegate_1abf7382fa9c125e4a48472b362cf6c99c" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="retain">
+        <type>IBOutlet <ref refid="interface_inventory_view_controller" kindref="compound">InventoryViewController</ref> *</type>
+        <definition>IBOutlet InventoryViewController* iGarageAppDelegate::viewController</definition>
+        <argsstring></argsstring>
+        <name>viewController</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tibo/Desktop/Cocoaheads Documentation/iGarage/Classes/iGarageAppDelegate.h" line="21" bodyfile="/Users/tibo/Desktop/Cocoaheads Documentation/iGarage/Classes/iGarageAppDelegate.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="5">
+        <label>iGarageAppDelegate</label>
+        <link refid="interfacei_garage_app_delegate"/>
+        <childnode refid="6" relation="usage">
+          <edgelabel>viewController</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>InventoryViewController</label>
+        <link refid="interface_inventory_view_controller"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/tibo/Desktop/Cocoaheads Documentation/iGarage/Classes/iGarageAppDelegate.h" line="15" bodyfile="/Users/tibo/Desktop/Cocoaheads Documentation/iGarage/Classes/iGarageAppDelegate.h" bodystart="15" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interfacei_garage_app_delegate_1a8f9b5f898ca7834b8c518c544d056aa7" prot="protected" virt="non-virtual"><scope>iGarageAppDelegate</scope><name>viewController</name></member>
+      <member refid="interfacei_garage_app_delegate_1abf7382fa9c125e4a48472b362cf6c99c" prot="public" virt="non-virtual"><scope>iGarageAppDelegate</scope><name>viewController</name></member>
+      <member refid="interfacei_garage_app_delegate_1a1c3045b04ff8e38983a95e8d695cc53e" prot="protected" virt="non-virtual"><scope>iGarageAppDelegate</scope><name>window</name></member>
+      <member refid="interfacei_garage_app_delegate_1a8275de0de96fde0c992b74742c05e498" prot="public" virt="non-virtual"><scope>iGarageAppDelegate</scope><name>window</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

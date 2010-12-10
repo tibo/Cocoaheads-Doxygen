@@ -297,7 +297,7 @@
 							<real>185</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>0 100 1280 678 0 0 1280 778 </string>
+						<string>160 200 1280 678 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -327,7 +327,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>110ECE7B12B1163000E98EAA</string>
+										<string>11C95D2E12B16B7900FD6237</string>
 										<key>history</key>
 										<array>
 											<string>1161827012AD0297009B62A9</string>
@@ -340,7 +340,7 @@
 											<string>110ECE5B12B0646F00E98EAA</string>
 											<string>110ECE6212B0BFCC00E98EAA</string>
 											<string>110ECE7112B0E51A00E98EAA</string>
-											<string>110ECE7212B0E51A00E98EAA</string>
+											<string>1144862712B1515700371006</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -354,18 +354,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1073, 310}}</string>
+								<string>{{0, 0}, {1073, 502}}</string>
 								<key>RubberWindowFrame</key>
-								<string>0 100 1280 678 0 0 1280 778 </string>
+								<string>160 200 1280 678 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>310pt</string>
+							<string>502pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>322pt</string>
+							<string>130pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -379,7 +379,9 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1073, 295}}</string>
+										<string>{{10, 27}, {1073, 103}}</string>
+										<key>RubberWindowFrame</key>
+										<string>160 200 1280 678 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -434,8 +436,6 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {1073, 295}}</string>
-										<key>RubberWindowFrame</key>
-										<string>0 100 1280 678 0 0 1280 778 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -463,11 +463,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>110ECDDA12B0608A00E98EAA</string>
+				<string>11C95D2512B1516F00FD6237</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>110ECDDB12B0608A00E98EAA</string>
+				<string>11C95D2612B1516F00FD6237</string>
 				<string>1161826E12AD0297009B62A9</string>
-				<string>110ECDDC12B0608A00E98EAA</string>
+				<string>11C95D2712B1516F00FD6237</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -616,14 +616,14 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>110ECDDD12B0608A00E98EAA</string>
+				<string>11C95D2812B1516F00FD6237</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>110ECDDE12B0608A00E98EAA</string>
-				<string>110ECDDF12B0608A00E98EAA</string>
-				<string>110ECDE012B0608A00E98EAA</string>
-				<string>110ECDE112B0608A00E98EAA</string>
-				<string>1161826E12AD0297009B62A9</string>
+				<string>11C95D2912B1516F00FD6237</string>
+				<string>11C95D2A12B1516F00FD6237</string>
+				<string>11C95D2B12B1516F00FD6237</string>
+				<string>11C95D2C12B1516F00FD6237</string>
+				<string>11C95D2D12B1516F00FD6237</string>
 			</array>
 			<key>ToolbarConfigUserDefaultsMinorVersion</key>
 			<string>2</string>
@@ -657,10 +657,10 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>/Users/tibo/Desktop/iGarage/iGarage.xcodeproj</string>
+		<string>/Users/tibo/Desktop/Cocoaheads Documentation/iGarage/iGarage.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>0 100 1280 678 0 0 1280 778 </string>
+	<string>160 200 1280 678 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

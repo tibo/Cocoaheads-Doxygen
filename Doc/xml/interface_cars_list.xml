@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.2">
+  <compounddef id="interface_cars_list" kind="class" prot="public">
+    <compoundname>CarsList</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_cars_list_1a1c83e42e0cabab1b48e9873103c79313" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no" accessor="copy">
+        <type>NSMutableArray *</type>
+        <definition>NSMutableArray * CarsList::inventory</definition>
+        <argsstring></argsstring>
+        <name>inventory</name>
+        <read></read>
+        <write></write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tibo/Desktop/Cocoaheads Documentation/iGarage/Classes/CarsList.h" line="13" bodyfile="/Users/tibo/Desktop/Cocoaheads Documentation/iGarage/Classes/CarsList.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="interface_cars_list_1a200385f74e8665ba8e709e5799e094b7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="interface_cars_list" kindref="compound">CarsList</ref> *</type>
+        <definition>CarsList * CarsList::list</definition>
+        <argsstring>()</argsstring>
+        <name>list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/tibo/Desktop/Cocoaheads Documentation/iGarage/Classes/CarsList.h" line="18" bodyfile="/Users/tibo/Desktop/Cocoaheads Documentation/iGarage/Classes/CarsList.m" bodystart="32" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/tibo/Desktop/Cocoaheads Documentation/iGarage/Classes/CarsList.h" line="12" bodyfile="/Users/tibo/Desktop/Cocoaheads Documentation/iGarage/Classes/CarsList.h" bodystart="12" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="interface_cars_list_1a1c83e42e0cabab1b48e9873103c79313" prot="protected" virt="non-virtual"><scope>CarsList</scope><name>inventory</name></member>
+      <member refid="interface_cars_list_1a1c83e42e0cabab1b48e9873103c79313" prot="public" virt="non-virtual"><scope>CarsList</scope><name>inventory</name></member>
+      <member refid="interface_cars_list_1a200385f74e8665ba8e709e5799e094b7" prot="public" virt="virtual"><scope>CarsList</scope><name>list</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

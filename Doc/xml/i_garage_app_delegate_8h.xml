@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.2">
+  <compounddef id="i_garage_app_delegate_8h" kind="file">
+    <compoundname>iGarageAppDelegate.h</compoundname>
+    <includes local="no">UIKit/UIKit.h</includes>
+    <includes refid="_car_8h" local="yes">Car.h</includes>
+    <includes refid="_cars_list_8h" local="yes">CarsList.h</includes>
+    <includedby refid="i_garage_app_delegate_8m" local="yes">iGarage/Classes/iGarageAppDelegate.m</includedby>
+    <incdepgraph>
+      <node id="18">
+        <label>Car.h</label>
+        <link refid="_car_8h_source"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="20">
+        <label>CarsList.h</label>
+        <link refid="_cars_list_8h_source"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="16">
+        <label>iGarage/Classes/iGarageAppDelegate.h</label>
+        <link refid="iGarageAppDelegate.h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="interfacei_garage_app_delegate" prot="public">iGarageAppDelegate</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iGarageAppDelegate.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iGarage</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Thibaut<sp/>LE<sp/>LEVIER<sp/>on<sp/>06/12/10.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>2010<sp/>Thibaut<sp/>LE<sp/>LEVIER.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;UIKit/UIKit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;Car.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;CarsList.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">@class</highlight><highlight class="normal"><sp/><ref refid="interface_inventory_view_controller" kindref="compound">InventoryViewController</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="interfacei_garage_app_delegate" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="interfacei_garage_app_delegate" kindref="compound">iGarageAppDelegate</ref><sp/>:<sp/>NSObject<sp/>&lt;UIApplicationDelegate&gt;<sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>UIWindow<sp/>*window;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="interface_inventory_view_controller" kindref="compound">InventoryViewController</ref><sp/>*viewController;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">@property<sp/>(nonatomic,<sp/>retain)<sp/>IBOutlet<sp/>UIWindow<sp/>*window;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">@property<sp/>(nonatomic,<sp/>retain)<sp/>IBOutlet<sp/><ref refid="interface_inventory_view_controller" kindref="compound">InventoryViewController</ref><sp/>*viewController;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">@end</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/tibo/Desktop/Cocoaheads Documentation/iGarage/Classes/iGarageAppDelegate.h"/>
+  </compounddef>
+</doxygen>

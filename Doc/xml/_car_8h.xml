@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.2">
+  <compounddef id="_car_8h" kind="file">
+    <compoundname>Car.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includedby refid="_car_8m" local="yes">iGarage/Classes/Car.m</includedby>
+    <includedby refid="i_garage_app_delegate_8h" local="yes">iGarage/Classes/iGarageAppDelegate.h</includedby>
+    <includedby refid="_inventory_view_controller_8m" local="yes">iGarage/Classes/InventoryViewController.m</includedby>
+    <incdepgraph>
+      <node id="0">
+        <label>iGarage/Classes/Car.h</label>
+        <link refid="Car.h"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>iGarage/Classes/Car.h</label>
+        <link refid="Car.h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>iGarage/Classes/iGarageAppDelegate.h</label>
+        <link refid="i_garage_app_delegate_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="interface_car" prot="public">Car</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Car.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iGarage</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Thibaut<sp/>LE<sp/>LEVIER<sp/>on<sp/>06/12/10.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>2010<sp/>Thibaut<sp/>LE<sp/>LEVIER.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="interface_car" refkind="compound"><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="interface_car" kindref="compound">Car</ref><sp/>:<sp/>NSObject<sp/>{</highlight></codeline>
+<codeline lineno="17" refid="interface_car_1aa0a2655c923761b2bc3df7b6332f4c1e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSString<sp/>*<ref refid="interface_car_1aa0a2655c923761b2bc3df7b6332f4c1e" kindref="member">brand</ref>;</highlight></codeline>
+<codeline lineno="18" refid="interface_car_1a7d1ca977bd61d769bdde58c0f6aa2aad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSString<sp/>*<ref refid="interface_car_1a7d1ca977bd61d769bdde58c0f6aa2aad" kindref="member">carmodel</ref>;</highlight></codeline>
+<codeline lineno="19" refid="interface_car_1a6710de03a31b4c16e1c8de24dc5b0551" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSNumber<sp/>*<ref refid="interface_car_1a6710de03a31b4c16e1c8de24dc5b0551" kindref="member">year</ref>;</highlight></codeline>
+<codeline lineno="20" refid="interface_car_1ae3e029054dd55e7c0207ff6a61e04d68" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSString<sp/>*<ref refid="interface_car_1ae3e029054dd55e7c0207ff6a61e04d68" kindref="member">serialNumber</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">@property<sp/>(nonatomic,<sp/>copy)<sp/>NSString<sp/>*brand;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">@property<sp/>(nonatomic,<sp/>copy)<sp/>NSString<sp/>*carmodel;<sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">@property<sp/>(nonatomic,<sp/>retain)<sp/>NSNumber<sp/>*year;<sp/></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">@property<sp/>(nonatomic,<sp/>copy)<sp/>NSString<sp/>*serialNumber;<sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">-<sp/>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)<sp/>initWithBrand:(NSString*)_brand<sp/>Model:(NSString*)_model<sp/>Year:(NSNumber*)_year<sp/>andSerial:(NSString*)_serial;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">+<sp/>(<ref refid="interface_car" kindref="compound">Car</ref><sp/>*)<sp/>carWithBrand:(NSString*)_brand<sp/>Model:(NSString*)_model<sp/>Year:(NSNumber*)_year<sp/>andSerial:(NSString*)_serial;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal">@end</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/tibo/Desktop/Cocoaheads Documentation/iGarage/Classes/Car.h"/>
+  </compounddef>
+</doxygen>

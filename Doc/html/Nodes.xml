@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+  <TOC>
+    <Node>
+      <Name>Root</Name>
+      <Path>index.html</Path>
+      <Subnodes>
+       <Node>
+        <Name>Class List</Name>
+        <Path>annotated.html</Path>
+        <Subnodes>
+         <Node>
+          <Name>Car</Name>
+          <Path>interface_car.html</Path>
+         </Node>
+         <Node>
+          <Name>CarsList</Name>
+          <Path>interface_cars_list.html</Path>
+         </Node>
+         <Node>
+          <Name>iGarageAppDelegate</Name>
+          <Path>interfacei_garage_app_delegate.html</Path>
+         </Node>
+         <Node>
+          <Name>InventoryViewController</Name>
+          <Path>interface_inventory_view_controller.html</Path>
+         </Node>
+        </Subnodes>
+       </Node>
+       <Node>
+        <Name>Class Members</Name>
+        <Path>functions.html</Path>
+       </Node>
+       <Node>
+        <Name>File List</Name>
+        <Path>files.html</Path>
+        <Subnodes>
+        </Subnodes>
+       </Node>
+      </Subnodes>
+    </Node>
+  </TOC>
+</DocSetNodes>

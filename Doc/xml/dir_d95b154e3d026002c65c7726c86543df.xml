@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.2">
+  <compounddef id="dir_d95b154e3d026002c65c7726c86543df" kind="dir">
+    <compoundname>iGarage/Classes/</compoundname>
+    <innerfile refid="_car_8h">Car.h</innerfile>
+    <innerfile refid="_car_8m">Car.m</innerfile>
+    <innerfile refid="_cars_list_8h">CarsList.h</innerfile>
+    <innerfile refid="_cars_list_8m">CarsList.m</innerfile>
+    <innerfile refid="i_garage_app_delegate_8h">iGarageAppDelegate.h</innerfile>
+    <innerfile refid="i_garage_app_delegate_8m">iGarageAppDelegate.m</innerfile>
+    <innerfile refid="_inventory_view_controller_8h">InventoryViewController.h</innerfile>
+    <innerfile refid="_inventory_view_controller_8m">InventoryViewController.m</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/tibo/Desktop/Cocoaheads Documentation/iGarage/Classes/"/>
+  </compounddef>
+</doxygen>

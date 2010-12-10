@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.2">
+  <compounddef id="_cars_list_8h" kind="file">
+    <compoundname>CarsList.h</compoundname>
+    <includes local="no">Foundation/Foundation.h</includes>
+    <includedby refid="_cars_list_8m" local="yes">iGarage/Classes/CarsList.m</includedby>
+    <includedby refid="i_garage_app_delegate_8h" local="yes">iGarage/Classes/iGarageAppDelegate.h</includedby>
+    <includedby refid="_inventory_view_controller_8m" local="yes">iGarage/Classes/InventoryViewController.m</includedby>
+    <incdepgraph>
+      <node id="8">
+        <label>iGarage/Classes/CarsList.h</label>
+        <link refid="CarsList.h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Foundation/Foundation.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="10">
+        <label>iGarage/Classes/CarsList.h</label>
+        <link refid="CarsList.h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>iGarage/Classes/iGarageAppDelegate.h</label>
+        <link refid="i_garage_app_delegate_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="interface_cars_list" prot="public">CarsList</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>CarsList.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iGarage</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Thibaut<sp/>LE<sp/>LEVIER<sp/>on<sp/>06/12/10.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>2010<sp/>Thibaut<sp/>LE<sp/>LEVIER.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&lt;Foundation/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="interface_cars_list" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">@interface<sp/></highlight><highlight class="normal"><ref refid="interface_cars_list" kindref="compound">CarsList</ref><sp/>:<sp/>NSObject<sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NSMutableArray<sp/>*inventory;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">@property<sp/>(nonatomic,<sp/>copy)<sp/>NSMutableArray<sp/>*inventory;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">+(<ref refid="interface_cars_list" kindref="compound">CarsList</ref>*)list;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">@end</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/tibo/Desktop/Cocoaheads Documentation/iGarage/Classes/CarsList.h"/>
+  </compounddef>
+</doxygen>

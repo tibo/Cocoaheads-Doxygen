@@ -11,6 +11,7 @@
 /**
  Mon objet Voiture
  @author Thibaut LE LEVIER
+ @version 0.1
  */
 @interface Car : NSObject {
 	NSString *brand;

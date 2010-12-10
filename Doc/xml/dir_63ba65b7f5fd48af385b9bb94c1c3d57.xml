@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.2">
+  <compounddef id="dir_63ba65b7f5fd48af385b9bb94c1c3d57" kind="dir">
+    <compoundname>iGarage/</compoundname>
+    <innerdir refid="dir_d95b154e3d026002c65c7726c86543df">iGarage/Classes/</innerdir>
+    <innerfile refid="main_8m">main.m</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/tibo/Desktop/Cocoaheads Documentation/iGarage/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.2">
+  <compounddef id="_inventory_view_controller_8m" kind="file">
+    <compoundname>InventoryViewController.m</compoundname>
+    <includes refid="_inventory_view_controller_8h" local="yes">InventoryViewController.h</includes>
+    <includes refid="_cars_list_8h" local="yes">CarsList.h</includes>
+    <includes refid="_car_8h" local="yes">Car.h</includes>
+    <incdepgraph>
+      <node id="38">
+        <label>Car.h</label>
+        <link refid="_car_8h_source"/>
+        <childnode refid="37" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="36">
+        <label>CarsList.h</label>
+        <link refid="_cars_list_8h_source"/>
+        <childnode refid="37" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="34">
+        <label>InventoryViewController.h</label>
+        <link refid="_inventory_view_controller_8h_source"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>iGarage/Classes/InventoryViewController.m</label>
+        <link refid="InventoryViewController.m"/>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>InventoryViewController.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iGarage</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Thibaut<sp/>LE<sp/>LEVIER<sp/>on<sp/>06/12/10.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>2010<sp/>Thibaut<sp/>LE<sp/>LEVIER.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;InventoryViewController.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;CarsList.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;Car.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="interface_inventory_view_controller" kindref="compound">InventoryViewController</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-</highlight></codeline>
+<codeline lineno="17"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>View<sp/>lifecycle</highlight></codeline>
+<codeline lineno="18"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-<sp/>(void)viewDidLoad<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/><sp/><sp/><sp/>[super<sp/>viewDidLoad];</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"></highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/><sp/><sp/><sp/>//<sp/>Uncomment<sp/>the<sp/>following<sp/>line<sp/>to<sp/>display<sp/>an<sp/>Edit<sp/>button<sp/>in<sp/>the<sp/>navigation<sp/>bar<sp/>for<sp/>this<sp/>view<sp/>controller.</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/><sp/><sp/><sp/>//<sp/>self.navigationItem.rightBarButtonItem<sp/>=<sp/>self.editButtonItem;</highlight></codeline>
+<codeline lineno="25"><highlight class="comment">}</highlight></codeline>
+<codeline lineno="26"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="29"><highlight class="comment">-<sp/>(void)viewWillAppear:(BOOL)animated<sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/><sp/><sp/><sp/>[super<sp/>viewWillAppear:animated];</highlight></codeline>
+<codeline lineno="31"><highlight class="comment">}</highlight></codeline>
+<codeline lineno="32"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="34"><highlight class="comment">-<sp/>(void)viewDidAppear:(BOOL)animated<sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/><sp/><sp/><sp/>[super<sp/>viewDidAppear:animated];</highlight></codeline>
+<codeline lineno="36"><highlight class="comment">}</highlight></codeline>
+<codeline lineno="37"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="39"><highlight class="comment">-<sp/>(void)viewWillDisappear:(BOOL)animated<sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/><sp/><sp/><sp/>[super<sp/>viewWillDisappear:animated];</highlight></codeline>
+<codeline lineno="41"><highlight class="comment">}</highlight></codeline>
+<codeline lineno="42"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="44"><highlight class="comment">-<sp/>(void)viewDidDisappear:(BOOL)animated<sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/><sp/><sp/><sp/>[super<sp/>viewDidDisappear:animated];</highlight></codeline>
+<codeline lineno="46"><highlight class="comment">}</highlight></codeline>
+<codeline lineno="47"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="49"><highlight class="comment">//<sp/>Override<sp/>to<sp/>allow<sp/>orientations<sp/>other<sp/>than<sp/>the<sp/>default<sp/>portrait<sp/>orientation.</highlight></codeline>
+<codeline lineno="50"><highlight class="comment">-<sp/>(BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation<sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/><sp/><sp/><sp/>//<sp/>Return<sp/>YES<sp/>for<sp/>supported<sp/>orientations.</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/><sp/><sp/><sp/>return<sp/>(interfaceOrientation<sp/>==<sp/>UIInterfaceOrientationPortrait);</highlight></codeline>
+<codeline lineno="53"><highlight class="comment">}</highlight></codeline>
+<codeline lineno="54"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-</highlight></codeline>
+<codeline lineno="58"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>Table<sp/>view<sp/>data<sp/>source</highlight></codeline>
+<codeline lineno="59"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal">-<sp/>(NSInteger)numberOfSectionsInTableView:(UITableView<sp/>*)tableView<sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Return<sp/>the<sp/>number<sp/>of<sp/>sections.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal">-<sp/>(NSInteger)tableView:(UITableView<sp/>*)tableView<sp/>numberOfRowsInSection:(NSInteger)section<sp/>{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Return<sp/>the<sp/>number<sp/>of<sp/>rows<sp/>in<sp/>the<sp/>section.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[[<ref refid="interface_cars_list" kindref="compound">CarsList</ref><sp/>list].inventory<sp/>count];</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Customize<sp/>the<sp/>appearance<sp/>of<sp/>table<sp/>view<sp/>cells.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal">-<sp/>(UITableViewCell<sp/>*)tableView:(UITableView<sp/>*)tableView<sp/>cellForRowAtIndexPath:(NSIndexPath<sp/>*)indexPath<sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>NSString<sp/>*CellIdentifier<sp/>=<sp/></highlight><highlight class="stringliteral">@&quot;Cell&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>UITableViewCell<sp/>*cell<sp/>=<sp/>[tableView<sp/>dequeueReusableCellWithIdentifier:CellIdentifier];</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(cell<sp/>==<sp/>nil)<sp/>{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cell<sp/>=<sp/>[[[UITableViewCell<sp/>alloc]<sp/>initWithStyle:UITableViewCellStyleDefault<sp/>reuseIdentifier:CellIdentifier]<sp/>autorelease];</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Configure<sp/>the<sp/>cell...</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface_car" kindref="compound">Car</ref><sp/>*curcar<sp/>=<sp/>[[<ref refid="interface_cars_list" kindref="compound">CarsList</ref><sp/>list].inventory<sp/>objectAtIndex:[indexPath<sp/>indexAtPosition:1]];</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cell.textLabel.text<sp/>=<sp/>[NSString<sp/>stringWithFormat:@&quot;%@<sp/>%@<sp/>(%@)&quot;,[curcar<sp/><ref refid="interface_car_1aa0a2655c923761b2bc3df7b6332f4c1e" kindref="member">brand</ref>],[curcar<sp/><ref refid="interface_car_1a7d1ca977bd61d769bdde58c0f6aa2aad" kindref="member">carmodel</ref>],[[curcar<sp/><ref refid="interface_car_1a6710de03a31b4c16e1c8de24dc5b0551" kindref="member">year</ref>]<sp/>stringValue]];</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cell.detailTextLabel.text<sp/>=<sp/>[NSString<sp/>stringWithFormat:@&quot;%@&quot;,[curcar<sp/><ref refid="interface_car_1ae3e029054dd55e7c0207ff6a61e04d68" kindref="member">serialNumber</ref>]];</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>cell;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="94"><highlight class="comment">//<sp/>Override<sp/>to<sp/>support<sp/>conditional<sp/>editing<sp/>of<sp/>the<sp/>table<sp/>view.</highlight></codeline>
+<codeline lineno="95"><highlight class="comment">-<sp/>(BOOL)tableView:(UITableView<sp/>*)tableView<sp/>canEditRowAtIndexPath:(NSIndexPath<sp/>*)indexPath<sp/>{</highlight></codeline>
+<codeline lineno="96"><highlight class="comment"><sp/><sp/><sp/><sp/>//<sp/>Return<sp/>NO<sp/>if<sp/>you<sp/>do<sp/>not<sp/>want<sp/>the<sp/>specified<sp/>item<sp/>to<sp/>be<sp/>editable.</highlight></codeline>
+<codeline lineno="97"><highlight class="comment"><sp/><sp/><sp/><sp/>return<sp/>YES;</highlight></codeline>
+<codeline lineno="98"><highlight class="comment">}</highlight></codeline>
+<codeline lineno="99"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="103"><highlight class="comment">//<sp/>Override<sp/>to<sp/>support<sp/>editing<sp/>the<sp/>table<sp/>view.</highlight></codeline>
+<codeline lineno="104"><highlight class="comment">-<sp/>(void)tableView:(UITableView<sp/>*)tableView<sp/>commitEditingStyle:(UITableViewCellEditingStyle)editingStyle<sp/>forRowAtIndexPath:(NSIndexPath<sp/>*)indexPath<sp/>{</highlight></codeline>
+<codeline lineno="105"><highlight class="comment"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="106"><highlight class="comment"><sp/><sp/><sp/><sp/>if<sp/>(editingStyle<sp/>==<sp/>UITableViewCellEditingStyleDelete)<sp/>{</highlight></codeline>
+<codeline lineno="107"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>Delete<sp/>the<sp/>row<sp/>from<sp/>the<sp/>data<sp/>source.</highlight></codeline>
+<codeline lineno="108"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[tableView<sp/>deleteRowsAtIndexPaths:[NSArray<sp/>arrayWithObject:indexPath]<sp/>withRowAnimation:UITableViewRowAnimationFade];</highlight></codeline>
+<codeline lineno="109"><highlight class="comment"><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="110"><highlight class="comment"><sp/><sp/><sp/><sp/>else<sp/>if<sp/>(editingStyle<sp/>==<sp/>UITableViewCellEditingStyleInsert)<sp/>{</highlight></codeline>
+<codeline lineno="111"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>Create<sp/>a<sp/>new<sp/>instance<sp/>of<sp/>the<sp/>appropriate<sp/>class,<sp/>insert<sp/>it<sp/>into<sp/>the<sp/>array,<sp/>and<sp/>add<sp/>a<sp/>new<sp/>row<sp/>to<sp/>the<sp/>table<sp/>view.</highlight></codeline>
+<codeline lineno="112"><highlight class="comment"><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="113"><highlight class="comment">}</highlight></codeline>
+<codeline lineno="114"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="118"><highlight class="comment">//<sp/>Override<sp/>to<sp/>support<sp/>rearranging<sp/>the<sp/>table<sp/>view.</highlight></codeline>
+<codeline lineno="119"><highlight class="comment">-<sp/>(void)tableView:(UITableView<sp/>*)tableView<sp/>moveRowAtIndexPath:(NSIndexPath<sp/>*)fromIndexPath<sp/>toIndexPath:(NSIndexPath<sp/>*)toIndexPath<sp/>{</highlight></codeline>
+<codeline lineno="120"><highlight class="comment">}</highlight></codeline>
+<codeline lineno="121"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="125"><highlight class="comment">//<sp/>Override<sp/>to<sp/>support<sp/>conditional<sp/>rearranging<sp/>of<sp/>the<sp/>table<sp/>view.</highlight></codeline>
+<codeline lineno="126"><highlight class="comment">-<sp/>(BOOL)tableView:(UITableView<sp/>*)tableView<sp/>canMoveRowAtIndexPath:(NSIndexPath<sp/>*)indexPath<sp/>{</highlight></codeline>
+<codeline lineno="127"><highlight class="comment"><sp/><sp/><sp/><sp/>//<sp/>Return<sp/>NO<sp/>if<sp/>you<sp/>do<sp/>not<sp/>want<sp/>the<sp/>item<sp/>to<sp/>be<sp/>re-orderable.</highlight></codeline>
+<codeline lineno="128"><highlight class="comment"><sp/><sp/><sp/><sp/>return<sp/>YES;</highlight></codeline>
+<codeline lineno="129"><highlight class="comment">}</highlight></codeline>
+<codeline lineno="130"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-</highlight></codeline>
+<codeline lineno="134"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>Table<sp/>view<sp/>delegate</highlight></codeline>
+<codeline lineno="135"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal">-<sp/>(void)tableView:(UITableView<sp/>*)tableView<sp/>didSelectRowAtIndexPath:(NSIndexPath<sp/>*)indexPath<sp/>{</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Navigation<sp/>logic<sp/>may<sp/>go<sp/>here.<sp/>Create<sp/>and<sp/>push<sp/>another<sp/>view<sp/>controller.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="139"><highlight class="comment"><sp/><sp/><sp/><sp/>&lt;#DetailViewController#&gt;<sp/>*detailViewController<sp/>=<sp/>[[&lt;#DetailViewController#&gt;<sp/>alloc]<sp/>initWithNibName:@&quot;&lt;#Nib<sp/>name#&gt;&quot;<sp/>bundle:nil];</highlight></codeline>
+<codeline lineno="140"><highlight class="comment"><sp/><sp/><sp/><sp/>//<sp/>...</highlight></codeline>
+<codeline lineno="141"><highlight class="comment"><sp/><sp/><sp/><sp/>//<sp/>Pass<sp/>the<sp/>selected<sp/>object<sp/>to<sp/>the<sp/>new<sp/>view<sp/>controller.</highlight></codeline>
+<codeline lineno="142"><highlight class="comment"><sp/><sp/><sp/><sp/>[self.navigationController<sp/>pushViewController:detailViewController<sp/>animated:YES];</highlight></codeline>
+<codeline lineno="143"><highlight class="comment"><sp/><sp/><sp/><sp/>[detailViewController<sp/>release];</highlight></codeline>
+<codeline lineno="144"><highlight class="comment"><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-</highlight></codeline>
+<codeline lineno="149"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>Memory<sp/>management</highlight></codeline>
+<codeline lineno="150"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal">-<sp/>(void)didReceiveMemoryWarning<sp/>{</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Releases<sp/>the<sp/>view<sp/>if<sp/>it<sp/>doesn&apos;t<sp/>have<sp/>a<sp/>superview.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">super</highlight><highlight class="normal"><sp/>didReceiveMemoryWarning];</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Relinquish<sp/>ownership<sp/>any<sp/>cached<sp/>data,<sp/>images,<sp/>etc.<sp/>that<sp/>aren&apos;t<sp/>in<sp/>use.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal">-<sp/>(void)viewDidUnload<sp/>{</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Relinquish<sp/>ownership<sp/>of<sp/>anything<sp/>that<sp/>can<sp/>be<sp/>recreated<sp/>in<sp/>viewDidLoad<sp/>or<sp/>on<sp/>demand.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>For<sp/>example:<sp/>self.myOutlet<sp/>=<sp/>nil;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal">-<sp/>(void)dealloc<sp/>{</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">super</highlight><highlight class="normal"><sp/>dealloc];</highlight></codeline>
+<codeline lineno="166"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/tibo/Desktop/Cocoaheads Documentation/iGarage/Classes/InventoryViewController.m"/>
+  </compounddef>
+</doxygen>

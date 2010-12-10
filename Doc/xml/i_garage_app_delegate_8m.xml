@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.2">
+  <compounddef id="i_garage_app_delegate_8m" kind="file">
+    <compoundname>iGarageAppDelegate.m</compoundname>
+    <includes refid="i_garage_app_delegate_8h" local="yes">iGarageAppDelegate.h</includes>
+    <includes refid="_inventory_view_controller_8h" local="yes">InventoryViewController.h</includes>
+    <incdepgraph>
+      <node id="25">
+        <label>Car.h</label>
+        <link refid="_car_8h_source"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>UIKit/UIKit.h</label>
+      </node>
+      <node id="27">
+        <label>CarsList.h</label>
+        <link refid="_cars_list_8h_source"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>Foundation/Foundation.h</label>
+      </node>
+      <node id="28">
+        <label>InventoryViewController.h</label>
+        <link refid="_inventory_view_controller_8h_source"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>iGarageAppDelegate.h</label>
+        <link refid="i_garage_app_delegate_8h_source"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>iGarage/Classes/iGarageAppDelegate.m</label>
+        <link refid="iGarageAppDelegate.m"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iGarageAppDelegate.m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>iGarage</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Thibaut<sp/>LE<sp/>LEVIER<sp/>on<sp/>06/12/10.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>2010<sp/>Thibaut<sp/>LE<sp/>LEVIER.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;iGarageAppDelegate.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#import<sp/>&quot;InventoryViewController.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">@implementation<sp/></highlight><highlight class="normal"><ref refid="interfacei_garage_app_delegate" kindref="compound">iGarageAppDelegate</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">@synthesize</highlight><highlight class="normal"><sp/>window;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">@synthesize</highlight><highlight class="normal"><sp/>viewController;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>Application<sp/>lifecycle</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">-<sp/>(BOOL)application:(UIApplication<sp/>*)application<sp/>didFinishLaunchingWithOptions:(NSDictionary<sp/>*)launchOptions<sp/>{<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Override<sp/>point<sp/>for<sp/>customization<sp/>after<sp/>application<sp/>launch.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>[[CarsList<sp/>list].inventory<sp/>addObject:[Car<sp/>carWithBrand:@&quot;Renault&quot;<sp/>Model:@&quot;Clio&quot;<sp/>Year:[NSNumber<sp/>numberWithInt:2003]<sp/>andSerial:@&quot;1111<sp/>AA<sp/>33&quot;]];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[<ref refid="interface_cars_list" kindref="compound">CarsList</ref><sp/>list].inventory<sp/>addObject:[<ref refid="interface_car" kindref="compound">Car</ref><sp/><ref refid="interface_car_1a48884de32ffdb9b2ea3d37b3b2e71123" kindref="member">carWithBrand</ref>:@&quot;Renault&quot;<sp/><ref refid="interface_car_1a48884de32ffdb9b2ea3d37b3b2e71123" kindref="member">Model</ref>:@&quot;Clio&quot;<sp/><ref refid="interface_car_1a48884de32ffdb9b2ea3d37b3b2e71123" kindref="member">Year</ref>:[NSNumber<sp/>numberWithInt:2009]<sp/><ref refid="interface_car_1a48884de32ffdb9b2ea3d37b3b2e71123" kindref="member">andSerial</ref>:@&quot;1234<sp/>AA<sp/>33&quot;]];</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[<ref refid="interface_cars_list" kindref="compound">CarsList</ref><sp/>list].inventory<sp/>addObject:[<ref refid="interface_car" kindref="compound">Car</ref><sp/><ref refid="interface_car_1a48884de32ffdb9b2ea3d37b3b2e71123" kindref="member">carWithBrand</ref>:@&quot;Peugeot&quot;<sp/><ref refid="interface_car_1a48884de32ffdb9b2ea3d37b3b2e71123" kindref="member">Model</ref>:@&quot;106&quot;<sp/><ref refid="interface_car_1a48884de32ffdb9b2ea3d37b3b2e71123" kindref="member">Year</ref>:[NSNumber<sp/>numberWithInt:2002]<sp/><ref refid="interface_car_1a48884de32ffdb9b2ea3d37b3b2e71123" kindref="member">andSerial</ref>:@&quot;1234<sp/>AA<sp/>33&quot;]];</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[<ref refid="interface_cars_list" kindref="compound">CarsList</ref><sp/>list].inventory<sp/>addObject:[<ref refid="interface_car" kindref="compound">Car</ref><sp/><ref refid="interface_car_1a48884de32ffdb9b2ea3d37b3b2e71123" kindref="member">carWithBrand</ref>:@&quot;Citroen&quot;<sp/><ref refid="interface_car_1a48884de32ffdb9b2ea3d37b3b2e71123" kindref="member">Model</ref>:@&quot;AX&quot;<sp/><ref refid="interface_car_1a48884de32ffdb9b2ea3d37b3b2e71123" kindref="member">Year</ref>:[NSNumber<sp/>numberWithInt:1988]<sp/><ref refid="interface_car_1a48884de32ffdb9b2ea3d37b3b2e71123" kindref="member">andSerial</ref>:@&quot;1234<sp/>AA<sp/>33&quot;]];</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[<ref refid="interface_cars_list" kindref="compound">CarsList</ref><sp/>list].inventory<sp/>addObject:[<ref refid="interface_car" kindref="compound">Car</ref><sp/><ref refid="interface_car_1a48884de32ffdb9b2ea3d37b3b2e71123" kindref="member">carWithBrand</ref>:@&quot;Ford&quot;<sp/><ref refid="interface_car_1a48884de32ffdb9b2ea3d37b3b2e71123" kindref="member">Model</ref>:@&quot;Mustang&quot;<sp/><ref refid="interface_car_1a48884de32ffdb9b2ea3d37b3b2e71123" kindref="member">Year</ref>:[NSNumber<sp/>numberWithInt:1967]<sp/><ref refid="interface_car_1a48884de32ffdb9b2ea3d37b3b2e71123" kindref="member">andSerial</ref>:@&quot;1234<sp/>AA<sp/>33&quot;]];</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[<ref refid="interface_cars_list" kindref="compound">CarsList</ref><sp/>list].inventory<sp/>addObject:[<ref refid="interface_car" kindref="compound">Car</ref><sp/><ref refid="interface_car_1a48884de32ffdb9b2ea3d37b3b2e71123" kindref="member">carWithBrand</ref>:@&quot;Porsche&quot;<sp/><ref refid="interface_car_1a48884de32ffdb9b2ea3d37b3b2e71123" kindref="member">Model</ref>:@&quot;Carrera<sp/>4S&quot;<sp/><ref refid="interface_car_1a48884de32ffdb9b2ea3d37b3b2e71123" kindref="member">Year</ref>:[NSNumber<sp/>numberWithInt:2009]<sp/><ref refid="interface_car_1a48884de32ffdb9b2ea3d37b3b2e71123" kindref="member">andSerial</ref>:@&quot;1234<sp/>AA<sp/>33&quot;]];</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[<ref refid="interface_cars_list" kindref="compound">CarsList</ref><sp/>list].inventory<sp/>addObject:[<ref refid="interface_car" kindref="compound">Car</ref><sp/><ref refid="interface_car_1a48884de32ffdb9b2ea3d37b3b2e71123" kindref="member">carWithBrand</ref>:@&quot;Ferrari&quot;<sp/><ref refid="interface_car_1a48884de32ffdb9b2ea3d37b3b2e71123" kindref="member">Model</ref>:@&quot;358<sp/>GTB&quot;<sp/><ref refid="interface_car_1a48884de32ffdb9b2ea3d37b3b2e71123" kindref="member">Year</ref>:[NSNumber<sp/>numberWithInt:1988]<sp/><ref refid="interface_car_1a48884de32ffdb9b2ea3d37b3b2e71123" kindref="member">andSerial</ref>:@&quot;1234<sp/>AA<sp/>33&quot;]];</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Add<sp/>the<sp/>view<sp/>controller&apos;s<sp/>view<sp/>to<sp/>the<sp/>window<sp/>and<sp/>display.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.window<sp/>addSubview:viewController.view];</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">self</highlight><highlight class="normal">.window<sp/>makeKeyAndVisible];</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>YES;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">-<sp/>(void)applicationWillResignActive:(UIApplication<sp/>*)application<sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>Sent<sp/>when<sp/>the<sp/>application<sp/>is<sp/>about<sp/>to<sp/>move<sp/>from<sp/>active<sp/>to<sp/>inactive<sp/>state.<sp/>This<sp/>can<sp/>occur<sp/>for<sp/>certain<sp/>types<sp/>of<sp/>temporary<sp/>interruptions<sp/>(such<sp/>as<sp/>an<sp/>incoming<sp/>phone<sp/>call<sp/>or<sp/>SMS<sp/>message)<sp/>or<sp/>when<sp/>the<sp/>user<sp/>quits<sp/>the<sp/>application<sp/>and<sp/>it<sp/>begins<sp/>the<sp/>transition<sp/>to<sp/>the<sp/>background<sp/>state.</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>Use<sp/>this<sp/>method<sp/>to<sp/>pause<sp/>ongoing<sp/>tasks,<sp/>disable<sp/>timers,<sp/>and<sp/>throttle<sp/>down<sp/>OpenGL<sp/>ES<sp/>frame<sp/>rates.<sp/>Games<sp/>should<sp/>use<sp/>this<sp/>method<sp/>to<sp/>pause<sp/>the<sp/>game.</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">-<sp/>(void)applicationDidEnterBackground:(UIApplication<sp/>*)application<sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>Use<sp/>this<sp/>method<sp/>to<sp/>release<sp/>shared<sp/>resources,<sp/>save<sp/>user<sp/>data,<sp/>invalidate<sp/>timers,<sp/>and<sp/>store<sp/>enough<sp/>application<sp/>state<sp/>information<sp/>to<sp/>restore<sp/>your<sp/>application<sp/>to<sp/>its<sp/>current<sp/>state<sp/>in<sp/>case<sp/>it<sp/>is<sp/>terminated<sp/>later.<sp/></highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>If<sp/>your<sp/>application<sp/>supports<sp/>background<sp/>execution,<sp/>called<sp/>instead<sp/>of<sp/>applicationWillTerminate:<sp/>when<sp/>the<sp/>user<sp/>quits.</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal">-<sp/>(void)applicationWillEnterForeground:(UIApplication<sp/>*)application<sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>Called<sp/>as<sp/>part<sp/>of<sp/><sp/>transition<sp/>from<sp/>the<sp/>background<sp/>to<sp/>the<sp/>inactive<sp/>state:<sp/>here<sp/>you<sp/>can<sp/>undo<sp/>many<sp/>of<sp/>the<sp/>changes<sp/>made<sp/>on<sp/>entering<sp/>the<sp/>background.</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">-<sp/>(void)applicationDidBecomeActive:(UIApplication<sp/>*)application<sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>Restart<sp/>any<sp/>tasks<sp/>that<sp/>were<sp/>paused<sp/>(or<sp/>not<sp/>yet<sp/>started)<sp/>while<sp/>the<sp/>application<sp/>was<sp/>inactive.<sp/>If<sp/>the<sp/>application<sp/>was<sp/>previously<sp/>in<sp/>the<sp/>background,<sp/>optionally<sp/>refresh<sp/>the<sp/>user<sp/>interface.</highlight></codeline>
+<codeline lineno="68"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal">-<sp/>(void)applicationWillTerminate:(UIApplication<sp/>*)application<sp/>{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="74"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>Called<sp/>when<sp/>the<sp/>application<sp/>is<sp/>about<sp/>to<sp/>terminate.</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>See<sp/>also<sp/>applicationDidEnterBackground:.</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>-</highlight></codeline>
+<codeline lineno="81"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#pragma<sp/>mark<sp/>Memory<sp/>management</highlight></codeline>
+<codeline lineno="82"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal">-<sp/>(void)applicationDidReceiveMemoryWarning:(UIApplication<sp/>*)application<sp/>{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="85"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>Free<sp/>up<sp/>as<sp/>much<sp/>memory<sp/>as<sp/>possible<sp/>by<sp/>purging<sp/>cached<sp/>data<sp/>objects<sp/>that<sp/>can<sp/>be<sp/>recreated<sp/>(or<sp/>reloaded<sp/>from<sp/>disk)<sp/>later.</highlight></codeline>
+<codeline lineno="86"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal">-<sp/>(void)dealloc<sp/>{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>[viewController<sp/>release];</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>[window<sp/>release];</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight><highlight class="keyword">super</highlight><highlight class="normal"><sp/>dealloc];</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="keyword">@end</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/tibo/Desktop/Cocoaheads Documentation/iGarage/Classes/iGarageAppDelegate.m"/>
+  </compounddef>
+</doxygen>
